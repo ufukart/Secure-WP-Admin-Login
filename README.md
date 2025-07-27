@@ -57,4 +57,39 @@ Alternatively, you can reset the `secure_login_slug` option directly from the da
 
 ### Does it work with TranslatePress?
 
-Yes. But you **must** select **"NO"** for the
+Yes. But you **must** select **"NO"** for the "Use a subdirectory for the default language" setting.
+
+### Is it compatible with Multisite?
+
+Yes, but each site in the network must configure its own login slug under its own Permalink settings.
+
+### Does it work with BuddyBoss or BuddyPress?
+
+**No.** These plugins override wp-admin routing, which conflicts with this plugin’s behavior.
+
+---
+
+## 📝 Changelog
+
+### 1.0.0
+
+- Forked from Secure WP Admin Login v1.8 by Saad Iqbal  
+- Added nonce verification and input sanitization  
+- Implemented XSS and CSRF protection  
+- Improved PHP and WordPress compatibility  
+- Refactored code to follow PSR-4 and modern PHP standards  
+
+---
+
+## 🧑‍💻 Support
+
+- Report issues or request features on [GitHub](https://github.com/ufukart/secure-wp-admin-login/issues)
+- Ask questions on the [WordPress Support Forum](https://wordpress.org/support/plugin/secure-wp-admin-login/)
+- Like the plugin? [Leave a review](https://wordpress.org/support/plugin/secure-wp-admin-login/reviews/)
+
+---
+
+## ❤️ Donate
+
+If you find this plugin useful, consider supporting its development:  
+👉 [Donate via PayPal](https://www.paypal.com/donate/?business=53EHQKQ3T87J8&no_recurring=0&currency_code=USD)
