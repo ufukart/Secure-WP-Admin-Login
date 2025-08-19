@@ -73,7 +73,7 @@ Yes, but each site in the network must configure its own login slug under its ow
 
 ### 1.0.0
 
-- Forked from Secure WP Admin Login v1.8 by Saad Iqbal  
+- Forked from Change WP Admin Login v1.8 by Saad Iqbal  
 - Added nonce verification and input sanitization  
 - Implemented XSS and CSRF protection  
 - Improved PHP and WordPress compatibility  
